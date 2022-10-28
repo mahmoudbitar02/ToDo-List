@@ -15,6 +15,10 @@ body{
         
         
     }
+    .form{
+        margin-left: 17%;
+    }
+    
     .list{
         list-style: none;
         margin-left: 90px;
@@ -50,15 +54,53 @@ body{
         display: inline-block;
     
     }
-    .svg1{
-        display: inline-block;
-        background-color: blue;
+   .fa-check{
+        font-weight: 900;
+        font-size: 25px;
+        width: 35px;
+        height: 35px;
+        margin-left: 5px;
 
-    }
-    .svg{
-        color: black;
-    }
-    .svg2{
-        background-color: cadetblue;
-        color: black;
-    }
+   }
+   .fa-trash{
+        font-weight: 900;
+        font-size: 25px;
+        width: 35px;
+        height: 35px;
+        margin-left: 7px;
+
+   }
+   .icon1{
+    display: inline-block;
+    background-color: forestgreen;
+    color: white;
+    height: 36px;
+    width: 36px;
+    padding-top: 2px;
+    margin-left: -4px;
+
+   }
+   .icon2{
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    height: 36px;
+    width: 36px;
+    padding-top: 2px;
+    margin-left: -5px;
+   }
+
+   .fa-square-plus{
+    font-size: 25px;
+    color: red;
+    background-color: white;
+    width: 40px;
+    height: 38px;
+    padding-top: 3px;
+    margin-left: -5px;
+   }
+  .icon{
+    display: inline-block;
+  }
+
+    
