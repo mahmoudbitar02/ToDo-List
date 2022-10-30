@@ -15,7 +15,7 @@ function addToDo(e){
 
     // add h3, data h3
     const newTodo = document.createElement("h3")
-    newTodo.innerText = todoInput.value ;
+    newTodo.innerHTML = todoInput.value ;
     newTodo.classList.add('li1')
     // creat btn
     const todoBtn = document.createElement("div")
@@ -23,11 +23,11 @@ function addToDo(e){
 
     // add complete , delete buttons
     const completeBtn = document.createElement('icon1')
-    completeBtn.innerText = <i class="fa-regular fa-check"></i>
+    completeBtn.innerHTML = <i class="fa-regular fa-check"></i>
     todoBtn.appendChild(completeBtn)
 
     const removeBtn = document.createElement('icon1')
-    completeBtn.innerText = <i class="fa-solid fa-trash"></i>
+    completeBtn.innerHTML = <i class="fa-solid fa-trash"></i>
     todoBtn.appendChild(removeBtn)
     todoResult.appendChild(todoDiv);
 
