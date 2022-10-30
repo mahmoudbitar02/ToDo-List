@@ -103,4 +103,11 @@ body{
     display: inline-block;
   }
 
+  .completed-todo{
+    opacity: .6;
+  }
+  .remove-todo{
+    display: none;
+  }
+
     
